@@ -10,10 +10,12 @@ namespace trading {
 
 using namespace std;
 
-class Suject {
+class Subject {
 public:
 	Subject();
+
 	~Subject();
+
 public:
 	string& getName();
 

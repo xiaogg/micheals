@@ -6,7 +6,7 @@ namespace trading {
 
 #include <micheals/trading/subject.hpp>
 #include <micheals/trading/notifier.hpp>
-
+#include <micheals/trading/notifierexception.hpp>
 
 class Notifier {
 public:
@@ -17,7 +17,7 @@ public:
 
 	virtual void close() = 0;
 
-	virtual void subscribe(const Subject& subject) throw(NotiferException) = 0;
+    virtual void subscribe(const Subject& subject) throw(NotifierException) = 0;
 
 	virtual void unSubscribe(const Subject& subject) = 0;
 };
