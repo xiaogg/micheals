@@ -19,7 +19,7 @@ public:
 
 	virtual void subscribe(const Subject& subject) throw(NotiferException) = 0;
 
-	virtual void unSubscribe() = 0;
+	virtual void unSubscribe(const Subject& subject) = 0;
 };
 
 
