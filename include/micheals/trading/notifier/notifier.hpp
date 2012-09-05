@@ -1,0 +1,2 @@
+#ifndef MICHEALS_TRADING_NOTIFIER_HPP
+#define :
