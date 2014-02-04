@@ -13,3 +13,4 @@
 # editor temp files
 *~
 *.autosave
+*.vpp*
